@@ -1,0 +1,227 @@
+{
+  "timestamp": "2025-09-17 15:49:05",
+  "summary": {
+    "total_tests": 17,
+    "successful_tests": 0,
+    "average_execution_time": 0.002096961526309743
+  },
+  "test_results": [
+    {
+      "test_name": "Simple Balanced",
+      "success": false,
+      "execution_time": 0.009720802307128906,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Minimal Resources",
+      "success": false,
+      "execution_time": 0.0027573108673095703,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "All TAs Thursday Off",
+      "success": false,
+      "execution_time": 0.0019779205322265625,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Excessive Premasters",
+      "success": false,
+      "execution_time": 0.0017867088317871094,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Overlapping Blocked Slots",
+      "success": false,
+      "execution_time": 0.0017800331115722656,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Single TA Overload",
+      "success": false,
+      "execution_time": 0.001603841781616211,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Large Scale",
+      "success": false,
+      "execution_time": 0.0017209053039550781,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Impossible Assignment",
+      "success": false,
+      "execution_time": 0.001486063003540039,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Uneven Capacities",
+      "success": false,
+      "execution_time": 0.0016307830810546875,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Scalability: Small Scale",
+      "success": false,
+      "execution_time": 0.0013740062713623047,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Scalability: Medium Scale",
+      "success": false,
+      "execution_time": 0.0013871192932128906,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Scalability: Large Scale",
+      "success": false,
+      "execution_time": 0.0015969276428222656,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Random Scenario 1",
+      "success": false,
+      "execution_time": 0.0012829303741455078,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Random Scenario 2",
+      "success": false,
+      "execution_time": 0.0012612342834472656,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Random Scenario 3",
+      "success": false,
+      "execution_time": 0.0016598701477050781,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Random Scenario 4",
+      "success": false,
+      "execution_time": 0.0012929439544677734,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    },
+    {
+      "test_name": "Random Scenario 5",
+      "success": false,
+      "execution_time": 0.0013289451599121094,
+      "assignments_count": 0,
+      "workload_balance_score": 0.0,
+      "constraint_violations": [
+        "HTTP Error: 422"
+      ],
+      "notes": "API Error: {\"detail\":[{\"loc\":[\"body\",\"course_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"},{\"loc\":[\"body\",\"ta_ids\"],\"msg\":\"field required\",\"type\":\"value_error.missing\"}]}"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "MEDIUM",
+      "category": "Workload Balancing",
+      "issue": "Poor workload balance (avg: 0.00)",
+      "recommendation": "Improve workload balancing algorithm with better scoring",
+      "implementation": "Add workload variance penalties to scoring function"
+    },
+    {
+      "priority": "LOW",
+      "category": "Algorithm Variety",
+      "issue": "Single algorithm approach",
+      "recommendation": "Implement multiple scheduling algorithms",
+      "implementation": "Add genetic algorithm, simulated annealing, constraint programming"
+    },
+    {
+      "priority": "LOW",
+      "category": "Randomization",
+      "issue": "Deterministic results",
+      "recommendation": "Add randomization for different solutions",
+      "implementation": "Add random seed parameter, shuffle candidate selection"
+    },
+    {
+      "priority": "LOW",
+      "category": "Optimization",
+      "issue": "Local optima",
+      "recommendation": "Add post-processing optimization",
+      "implementation": "Implement hill-climbing, swap optimization passes"
+    }
+  ]
+}
